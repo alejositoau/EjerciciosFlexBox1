@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+* {
+    box-sizing: border-box; 
+}
+
+.layout-5 { 
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    font-family: Arial, sans-serif;
+}
+
+.layout-5 header, .layout-5 footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.layout-5 main {
+    display: flex; 
+    flex-grow: 1; 
+    background-color: #f8f8f8;
+}
+
+.layout-5 nav, .layout-5 aside {
+    flex-grow: 1; 
+    background-color: #dddddd; 
+    padding: 20px;
+}
+
+.layout-5 article {
+    flex-grow: 2; 
+    background-color: #cccccc; 
+    padding: 20px;
+}

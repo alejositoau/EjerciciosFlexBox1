@@ -1,0 +1,26 @@
+.menu-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    height: 40px; 
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 30px; 
+}
+
+.nav-links a, .language-switcher a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
